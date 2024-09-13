@@ -2273,6 +2273,7 @@ const mostPopulatedCountries = (arr) => {
   });
 
   tenCountries[3].countrie = "USA";
+  tenCountries[9].countrie = "Russia";
   return tenCountries.slice(0, 10);
 };
 
